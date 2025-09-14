@@ -16,8 +16,15 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "quartz-vault",
+    ignorePatterns: [
+      "daily_notes",
+      "projects",
+      "resume",
+      "objectives",
+      "permanent_notes/scg",
+      ".obsidian",
+    ],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

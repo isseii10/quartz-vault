@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz-vault",
+    baseUrl: "isseii10.github.io/quartz-vault",
     ignorePatterns: [
       "daily_notes",
       "projects",

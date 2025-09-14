@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "ja-JP",
     baseUrl: "isseii10.github.io/quartz-vault",
     ignorePatterns: [
       "daily_notes",
@@ -89,7 +89,7 @@ const config: QuartzConfig = {
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
-        enableRSS: true,
+        // enableRSS: true,
       }),
       Plugin.Assets(),
       Plugin.Static(),

@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "ja-JP",
-    baseUrl: "isseii10.github.io/quartz-vault",
+    baseUrl: "isseii10.github.io/quartz-vault/",
     ignorePatterns: [
       ".claude",
       ".git",
@@ -97,7 +97,7 @@ const config: QuartzConfig = {
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
-        enableRSS: false,
+        enableRSS: true,
       }),
       Plugin.Assets(),
       Plugin.Static(),
